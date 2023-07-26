@@ -75,10 +75,12 @@ img{
 
 .containor{
    padding: 0 60px;
+   
 }
 .team-members{
    display: flex;
    justify-content: space-around;
+   flex-flow: wrap;
 }
 .member{
    width: 30%;
@@ -138,6 +140,76 @@ img{
    padding: 30px 0;
    text-align: center;
    letter-spacing: 8px;
+}
+
+
+@media screen and (max-width: 991px){
+
+   .member{
+      width: 45%;
+   }
+
+}
+
+
+@media screen and (max-width: 775px){
+   
+   .header-left{
+      width: 100%;
+      text-align: center;
+   }
+   .header-left h1{
+      font-size: 50px;
+   }
+   .header-left p{
+      letter-spacing: 4px;
+      font-size: 16px;
+      margin-bottom: 20px;
+   }
+
+   .header-right{
+      width: 100%;
+      text-align: center;
+   }
+   .header-right h3{
+      padding: 15px auto;
+      letter-spacing: 5px;
+      font-size: 20px;
+   }
+
+   .image-mane a{
+      padding: 15px 40px;
+      font-size: 22px;
+   }
+
+   .see-more h1{
+      font-size: 25px;
+   }
+
+   .member{
+      width: 90%;
+   }
+
+   .footer{
+      padding: 25px 0;
+      text-align: center;
+      letter-spacing: 4px;
+   }
+   .footer h2{
+      font-size: 22px;
+   }
+}
+
+@media screen and (max-width: 575px){
+   
+   .footer{
+      padding: 20px 0;
+      text-align: center;
+      letter-spacing: 3px;
+   }
+   .footer h2{
+      font-size: 18px;
+   }
 }
 
 
